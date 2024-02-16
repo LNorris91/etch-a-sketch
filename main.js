@@ -1,7 +1,14 @@
 const container = document.querySelector("#container");
 
-for (i = 0; i < 256; i++) {
-const div = document.createElement("div");
-div.classList.add("gridDiv");
-container.appendChild(div);
+let j = 10;
+
+for (i = 0; i < j; i++) {
+    const row = document.createElement("div");
+    row.classList.add("row");
+    container.appendChild(row);
+        for (g = 0; g < j; g++) {
+            const pixel = document.createElement("div");
+            pixel.classList.add("pixel");
+            row.appendChild(pixel);
+        }
 }
