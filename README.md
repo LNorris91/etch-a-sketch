@@ -1,1 +1,1 @@
-# etch-a-sketch
+This Etch-A-Sketch project will be a difficult one.  The goal is that the user will be able to move the mouse over a grid and it will trace a line behind the mouse.
